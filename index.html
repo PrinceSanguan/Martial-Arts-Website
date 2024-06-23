@@ -57,6 +57,37 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+
+    <style>
+      /* Dropdown menu styles */
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-menu li {
+        display: block;
+      }
+
+      .dropdown-menu li a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-menu li a:hover {
+        background-color: #ddd;
+      }
+
+      /* Show dropdown menu on hover */
+      #nav-main ul li:hover .dropdown-menu {
+        display: block;
+      }
+    </style>
   </head>
   <body>
     <!-- Preloader -->
@@ -147,7 +178,31 @@
                     <a href="#banner">Home</a>
                   </li>
                   <li>
-                    <a href="#about">Disciplines</a>
+                    <a
+                      href="#about"
+                      onmouseover="this.querySelector('.fa-chevron-down').style.transform = 'rotate(270deg)';"
+                      onmouseout="this.querySelector('.fa-chevron-down').style.transform = 'rotate(360deg)';"
+                    >
+                      Disciplines <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="/combat-jiu-jitsu.html">Combat Jiu Jitsu</a>
+                      </li>
+                      <li>
+                        <a href="/brazilian-jiu-jitsu.html"
+                          >Brazilian Jiu Jitsu</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/sub-grappling.html">Submission Grappling</a>
+                      </li>
+                      <li>
+                        <a href="/mixed-martial-arts.html"
+                          >Mixed Martial Arts</a
+                        >
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <a href="#gallery">Gallery</a>
@@ -227,7 +282,13 @@
                 </div>
                 <!--Icon Block Description-->
                 <div class="icon-block-description">
-                  <h4>Combat Jiu-Jitsu</h4>
+                  <a
+                    style="color: black; font-weight: bolder; font-size: 1.2em"
+                    href="/combat-jiu-jitsu.html"
+                    onmouseover="this.style.color='#d2b356';"
+                    onmouseout="this.style.color='black';"
+                    >Combat Jiu-Jitsu</a
+                  >
                   <p>
                     CJJ stands for Combat Jiu-Jitsu. Our programme focuses on
                     self defence and confidence in confrontational situations.
@@ -247,7 +308,13 @@
                 </div>
                 <!--Icon Block Description-->
                 <div class="icon-block-description">
-                  <h4>Brazilian Jiu-Jitsu</h4>
+                  <a
+                    style="color: black; font-weight: bolder; font-size: 1.2em"
+                    href="/brazilian-jiu-jitsu.html"
+                    onmouseover="this.style.color='#d2b356';"
+                    onmouseout="this.style.color='black';"
+                    >Brazilian Jiu-Jitsu</a
+                  >
                   <p>
                     Brazilian Jiu-Jitsu is currently one of the fastest growing
                     martial arts in the world made famous by the Gracies in the
@@ -268,7 +335,13 @@
                 </div>
                 <!--Icon Block Description-->
                 <div class="icon-block-description">
-                  <h4>Sub Grappling</h4>
+                  <a
+                    style="color: black; font-weight: bolder; font-size: 1.2em"
+                    href="/sub-grappling.html"
+                    onmouseover="this.style.color='#d2b356';"
+                    onmouseout="this.style.color='black';"
+                    >Sub Grappling</a
+                  >
                   <p>
                     Submission grappling has been made popular in recent years
                     by Jiu-Jitsu superstars like Gordon Ryan. With tournaments
@@ -290,7 +363,13 @@
                 </div>
                 <!--Icon Block Description-->
                 <div class="icon-block-description">
-                  <h4>Mixed Martial Arts</h4>
+                  <a
+                    style="color: black; font-weight: bolder; font-size: 1.2em"
+                    href="/mixed-martial-arts.html"
+                    onmouseover="this.style.color='#d2b356';"
+                    onmouseout="this.style.color='black';"
+                    >Mixed Martial Arts</a
+                  >
                   <p>
                     Mixed Martial Arts has been made famous by the UFC. MMA is a
                     combination of all styles of combat like boxing, wrestling,

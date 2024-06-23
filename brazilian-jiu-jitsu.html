@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+
+    <!--Page Title-->
+    <title>Brazilian Jiu-Jitsu</title>
+
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join SJA Martial Arts to learn self-defense, improve fitness, and boost confidence. We offer classes for all ages and skill levels."
+    />
+    <meta
+      name="keywords"
+      content="Martial Arts, Self-Defense, Fitness, Confidence, SJA Martial Arts, Karate, Taekwondo, Judo"
+    />
+    <meta name="author" content="SJA Martial Arts" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/saru_logo.ico" title="Favicon" />
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/discipline.css" />
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/discipline-color.css" />
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SJA Martial Arts" />
+    <meta
+      property="og:image"
+      content="https://sjj-martial-arts.vercel.app/images/logo1.png"
+    />
+    <meta property="og:url" content="https://sjj-martial-arts.vercel.app/" />
+    <meta property="og:site_name" content="SJA Martial Arts" />
+    <meta
+      property="og:description"
+      content="Join SJA Martial Arts to learn self-defense, improve fitness, and boost confidence. We offer classes for all ages and skill levels."
+    />
+    <meta property="og:type" content="website" />
+
+    <!--Google Webfonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--Font Awesome Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 2em; /* Default font size */
+      }
+  
+      /* Media query for small devices */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 1.5em; /* Smaller font size for small devices */
+        }
+      }
+  
+      /* Carousel styles */
+      .carousel-container {
+        position: relative;
+        max-width: 800px;
+        margin: auto;
+        overflow: hidden;
+        border: 2px solid #ddd;
+      }
+  
+      .carousel-slide {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+  
+      .carousel-slide img {
+        width: 100%;
+        flex-shrink: 0;
+      }
+  
+      .carousel-controls {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+      }
+  
+      .carousel-controls button {
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+      }
+  
+      .carousel-indicators {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+  
+      .carousel-indicators span {
+        background-color: #ddd;
+        border-radius: 50%;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        cursor: pointer;
+      }
+  
+      .carousel-indicators .active {
+        background-color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!--End of Preloader-->
+
+    <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+      <div
+        class="top-border wow fadeInDown animated"
+        style="visibility: visible; animation-name: fadeInDown"
+      ></div>
+      <div
+        class="right-border wow fadeInRight animated"
+        style="visibility: visible; animation-name: fadeInRight"
+      ></div>
+      <div
+        class="bottom-border wow fadeInUp animated"
+        style="visibility: visible; animation-name: fadeInUp"
+      ></div>
+      <div
+        class="left-border wow fadeInLeft animated"
+        style="visibility: visible; animation-name: fadeInLeft"
+      ></div>
+    </div>
+
+    <div id="wrapper">
+      <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+          <div class="row clearfix">
+            <div class="col-1">
+              <!--Logo-->
+              <div id="logo">
+                <!--Logo that is shown on the banner-->
+                <img src="images/logo3.png" alt="" />
+                <!--End of Banner Logo-->
+
+                <!--The Logo that is shown on the sticky Navigation Bar-->
+                <img src="" id="navigation-logo" alt="" />
+                <!--End of Navigation Logo-->
+              </div>
+              <!--End of Logo-->
+
+              <aside>
+                <!-- Social Icons in Header -->
+                <ul class="social-icons">
+                  <li>
+                    <a
+                      target="_blank"
+                      title="Facebook"
+                      href="https://web.facebook.com/SJAmartialarts?_rdc=1&_rdr"
+                    >
+                      <i class="fab fa-facebook fa-2x"></i><span>Facebook</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      title="Twitter"
+                      href="https://x.com/sarujujitsu"
+                    >
+                      <i class="fab fa-twitter fa-2x"></i><span>Twitter</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      title="Instagram"
+                      href="https://www.instagram.com/sjamartialarts/"
+                    >
+                      <i class="fab fa-instagram fa-2x"></i
+                      ><span>Instagram</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- End of Social Icons in Header -->
+              </aside>
+
+              <div id="nav-trigger"><span></span></div>
+              <nav id="nav-mobile"></nav>
+            </div>
+          </div>
+        </div>
+        <!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+          <div class="col-38">
+            <div class="section-heading">
+              <h1 style="text-align: center; font-size: 2em">
+                BJJ (Brazilian Jiu-Jitsu)
+              </h1>
+              <hr />
+
+              <!-- Carousel -->
+                <div class="carousel-container">
+                  <div class="carousel-slide">
+                    <img src="images/gallery-images/gallery-image-5.jpg" alt="First slide">
+                    <img src="images/gallery-images/gallery-image-6.jpg" alt="Second slide">
+                    <img src="images/gallery-images/gallery-image-7.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-controls">
+                    <button id="prevBtn">❮</button>
+                    <button id="nextBtn">❯</button>
+                  </div>
+                  <div class="carousel-indicators">
+                    <span class="active" data-slide="0"></span>
+                    <span data-slide="1"></span>
+                    <span data-slide="2"></span>
+                  </div>
+                </div>
+              <!-- Carousel -->
+
+
+              <p
+                style="
+                  text-align: center;
+                  font-size: 2em;
+                  font-weight: bolder;
+                  padding: 0;
+                  font-style: none;
+                "
+              >
+                What is BJJ??
+              </p>
+              <p style="text-align: center">BJJ stands for Brazilian Jiu-Jitsu.</p>
+
+              <h2>
+                Brazilian Jiu-Jitsu was developed by the Gracie family in Brazil and made famous in the UFC by Royce Gracie. BJJ is developed around the principle of a smaller or weaker opponent being able to beat a larger opponent in a fight. BJJ has come a long way since then and is now one of the fastest growing sports in the world. Our programme is taught as a sport with the objective to beat opponents via points or submission in a competition.
+              </h2>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+              <button 
+              onclick="window.location.href = 'index.html';"
+              style="
+                background: linear-gradient(45deg, #d2b356, #b69533, #8d6f12);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 1em;
+                font-weight: bold;
+                text-transform: uppercase;
+                cursor: pointer;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(210, 179, 86, 0.3);
+                transition: transform 0.2s, box-shadow 0.2s;
+              "
+              onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 15px rgba(0, 0, 0, 0.5), 0 0 25px rgba(210, 179, 86, 0.5)';"
+              onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(210, 179, 86, 0.3)';">
+                Back to the Main Page
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <!--End of Row-->
+
+        
+
+      <!--Footer-->
+      <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+          <p id="copyright" class="col-2">
+            Made by
+            <a href="https://www.prince-sanguan.free.nf"
+              >Student Web Solution</a
+            >
+          </p>
+
+          <!--Social Icons in Footer-->
+          <ul class="col-2 social-icons">
+            <li>
+              <a
+                target="_blank"
+                title="Facebook"
+                href="https://web.facebook.com/SJAmartialarts?_rdc=1&_rdr"
+              >
+                <i class="fab fa-facebook fa-2x"></i><span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                title="Twitter"
+                href="https://x.com/sarujujitsu"
+              >
+                <i class="fab fa-twitter fa-2x"></i><span>Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                title="Instagram"
+                href="https://www.instagram.com/sjamartialarts/"
+              >
+                <i class="fab fa-instagram fa-2x"></i><span>Instagram</span>
+              </a>
+            </li>
+          </ul>
+          <!--End of Social Icons in Footer-->
+        </div>
+      </footer>
+      <!--End of Footer-->
+    </div>
+
+    <script>
+      const carouselSlide = document.querySelector('.carousel-slide');
+      const carouselImages = document.querySelectorAll('.carousel-slide img');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const indicators = document.querySelectorAll('.carousel-indicators span');
+    
+      let counter = 0;
+      const size = carouselImages[0].clientWidth;
+    
+      function updateIndicators() {
+        indicators.forEach((indicator, index) => {
+          indicator.classList.remove('active');
+          if (index === counter) {
+            indicator.classList.add('active');
+          }
+        });
+      }
+    
+      function moveToNextSlide() {
+        if (counter >= carouselImages.length - 1) {
+          counter = -1;
+        }
+        carouselSlide.style.transform = 'translateX(' + (-size * ++counter) + 'px)';
+        updateIndicators();
+      }
+    
+      nextBtn.addEventListener('click', moveToNextSlide);
+    
+      prevBtn.addEventListener('click', () => {
+        if (counter <= 0) return;
+        carouselSlide.style.transform = 'translateX(' + (-size * --counter) + 'px)';
+        updateIndicators();
+      });
+    
+      indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+          counter = index;
+          carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+          updateIndicators();
+        });
+      });
+    
+      setInterval(moveToNextSlide, 3000);
+    </script>
+
+    <!-- Include JavaScript resources -->
+    <script src="js/jquery.1.8.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/featherlight.min.js"></script>
+    <script src="js/featherlight.gallery.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.stickyNavbar.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/images-loaded.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/site.js"></script>
+  </body>
+</html>
