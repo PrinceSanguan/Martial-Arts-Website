@@ -84,27 +84,27 @@
               </h5>
               <ul class="info_menu">
                 <li>
-                  <a href="index.html">
+                  <a href="{{route('welcome')}}">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="about.html">
-                    About
+                  <a href="{{route('mma')}}">
+                    MMA Classes
                   </a>
                 </li>
                 <li>
-                  <a href="service.html">
-                    Services
+                  <a href="{{route('bjj')}}">
+                    BJJ Classes
                   </a>
                 </li>
                 <li>
-                  <a href="team.html">
-                    Team
+                  <a href="{{route('blogs')}}">
+                    Blogs
                   </a>
                 </li>
                 <li class="mb-0">
-                  <a href="contact.html">
+                  <a href="https://api.leadconnectorhq.com/widget/form/TBmLsbOisJBOh2tDIa8F">
                     Contact Us
                   </a>
                 </li>
@@ -128,6 +128,9 @@
     </div>
   </footer>
   <!-- footer section -->
+
+
+
 
   <!-- jQery -->
   <script src="{{asset('js/jquery-3.4.1.min.js')}}"></script>

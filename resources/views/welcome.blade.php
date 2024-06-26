@@ -1,81 +1,6 @@
 @include('header')
 
-<body>
-  <div class="hero_area">
-    <div class="hero_bg_box">
-      <img src="{{asset('images/hero.jpg')}}" alt="">
-    </div>
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="header_top">
-        <div class="container-fluid header_top_container">
-
-          <div class="contact_nav">
-            <a href="">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Gym: SJA Martial Arts, 1 The Kingsway
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Call : +01 123455678990
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>
-                contact-us@sjamartialarts.co.uk
-              </span>
-            </a>
-          </div>
-          <div class="social_box">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="header_bottom">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand " href="index.html"> SJA Martial Arts </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class=""> </span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> MMA Classes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="service.html">BJJ Classes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="team.html"> Blogs </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://api.leadconnectorhq.com/widget/group/AOK2OZGakUKjlGZ1MlIV">Book a Call</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!-- end header section -->
+@include('navbar')
 
     <!-- slider section -->
     <section class="slider_section ">
@@ -172,5 +97,414 @@
     </section>
     <!-- end slider section -->
   </div>
+
+    <!-- about section -->
+    
+    <section class="video_section layout_padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="video-box">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="video-item">
+                    <h3>Start your martial arts journey!</h3>
+                    <p class="video-description">Listen to coach Ethan in the short video below as he talks you through some of the areas we pride ourselves in!</p>
+                    <div class="video-container">
+                      <video controls class="video-element">
+                        <source src="{{asset('videos/5 things Pride SJA.mp4')}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="video-item">
+                    <h3>Learn BJJ in Swansea</h3>
+                    <p class="video-description">We have a wide range of BJJ Programs at our academy starting from fundamentals all the way to advances! These classes are taught by some of the most accomplished Grapplers in the UK. A great hobby to get started with if you would like a mental and physical challenge!</p>
+                    <div class="video-container">
+                      <video controls class="video-element">
+                        <source src="{{asset('videos/SJA Ads 1 Adults.mp4')}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="video-item">
+                    <h3>Learn MMA in Swansea</h3>
+                    <p class="video-description">Our MMA Program is designed to introduce beginners into Mixed Martial Arts through fundamental techniques, welcoming coaches and students. We have newcomers almost every session and our experienced coaches will be there to make your first class as enjoyable as possible!</p>
+                    <div class="video-container">
+                      <video controls class="video-element">
+                        <source src="{{asset('videos/SJA Ads 2 Adults.mp4')}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="video-item">
+                    <h3>No Gi Grappling Swansea</h3>
+                    <p class="video-description">Our Submission Grappling program, focuses on wrestling, submissions and grappling techniques. This class is slightly more physical than our BJJ program and is coached by some of the highest level athletes in the UK.</p>
+                    <div class="video-container">
+                      <video controls class="video-element">
+                        <source src="{{asset('videos/SJA Ads 3.mp4')}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <style>
+      .video_section {
+        padding: 60px 0;
+        position: relative; /* Ensure positioning context for pseudo-element */
+        background-color: #000; /* Black background color */
+        color: #fff; /* Light text color for contrast */
+      }
+    
+      .video_section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/saru_logo.ico");
+        background-size: auto; /* Adjust as needed */
+        background-repeat: repeat;
+        opacity: .1; /* Adjust opacity to make the background image darker */
+        filter: brightness(100%); /* Adjust brightness to darken the background image */
+      }
+    
+      .video-box {
+        display: flex;
+        flex-direction: column; /* Display videos in a column by default */
+        gap: 20px;
+      }
+    
+      .row {
+        margin-left: -10px; /* Adjust for Bootstrap grid column padding */
+        margin-right: -10px; /* Adjust for Bootstrap grid column padding */
+      }
+    
+      .col-lg-6 {
+        padding-left: 10px; /* Adjust for Bootstrap grid column padding */
+        padding-right: 10px; /* Adjust for Bootstrap grid column padding */
+      }
+    
+      .video-item {
+        width: 100%; /* Full width for each video item */
+      }
+    
+      .video-item h3,
+      .video-item p {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Orbitron', sans-serif;
+      }
+    
+      .video-item h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+    
+      .video-description {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        border: 2px solid #00ffcc;
+        border-radius: 10px;
+      }
+    
+      .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+        border-radius: 10px;
+      }
+    
+      .video-container.portrait {
+        padding-bottom: 75%; /* 4:3 aspect ratio (50% of original 16:9) */
+      }
+    
+      .video-container.portrait video {
+        width: 100%;
+        height: auto;
+        max-width: 100%; /* Ensure the video doesn't overflow parent */
+        max-height: 100%; /* Ensure the video doesn't overflow parent */
+      }
+    
+      .read-more-btn {
+        text-align: center;
+        margin-top: 10px;
+        cursor: pointer;
+        color: #00ffcc;
+      }
+    
+      .read-more-btn:hover {
+        text-decoration: underline;
+      }
+    
+      @media (min-width: 992px) {
+        .video-box .row {
+          display: flex; /* Use flexbox for rows on larger screens */
+          flex-wrap: wrap; /* Allow items to wrap */
+          gap: 20px; /* Adjust gap between items */
+        }
+    
+        .video-box .col-lg-6 {
+          flex: 0 0 calc(50% - 20px); /* 50% width for each item, accounting for gap */
+          max-width: calc(50% - 20px); /* 50% width for each item, accounting for gap */
+        }
+      }
+    </style>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const descriptions = document.querySelectorAll(".video-description");
+        descriptions.forEach(description => {
+          const text = description.textContent.trim();
+          const maxLength = 30; // Maximum characters to display before truncating
+          if (text.length > maxLength) {
+            const truncatedText = text.slice(0, maxLength) + "...";
+            description.textContent = truncatedText;
+
+            const readMoreBtn = document.createElement("span");
+            readMoreBtn.classList.add("read-more-btn");
+            readMoreBtn.textContent = "Read More";
+            description.insertAdjacentElement("beforeend", readMoreBtn);
+
+            readMoreBtn.addEventListener("click", function() {
+              description.textContent = text;
+            });
+          }
+        });
+      });
+    </script>
+    
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const videos = document.querySelectorAll('.video-element');
+      
+        videos.forEach(video => {
+          video.addEventListener('click', function () {
+            const container = video.parentElement;
+            if (container.classList.contains('portrait')) {
+              container.classList.remove('portrait');
+            } else {
+              container.classList.add('portrait');
+            }
+          });
+      
+          video.addEventListener('ended', function () {
+            const container = video.parentElement;
+            container.classList.remove('portrait');
+          });
+        });
+      });
+      </script>
+
+    <!-- about section ends -->
+
+    <!-- client section -->
+
+    <section class="client_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Testimonials</h2>
+          <hr>
+        </div>
+        <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-7 col-md-9 mx-auto">
+                  <div class="client_container">
+                    <div class="detail-box">
+                      <h5>James Evans<i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
+                      <p>
+                        I trained here as a visitor and was really impressed with both the atmosphere and the level of coaching. Classes are well structured for all levels and the principles are well explained with each technique, which will give students a deeper understanding over time. Everyone I’ve met from the coaches to the students have been friendly and welcoming and I look forward to coming back again in the future. Highly recommend SJA to anyone and everyone in the area.
+                      </p>
+                      <span>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-7 col-md-9 mx-auto">
+                  <div class="client_container">
+                    <div class="detail-box">
+                      <h5>Damien Hann <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
+                      <p>
+                        This place is a great place to learn Martial Arts. Been going there almost 5 years now and a lot has changed, great staff and spacious gym. Overall it's a great place and I recommend you try it!
+                      </p>
+                      <span>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-7 col-md-9 mx-auto">
+                  <div class="client_container">
+                    <div class="detail-box">
+                      <h5>Emma Owen<i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
+                      <p>
+                        My son loved it! He can't wait to go again. Really informative and helpful staff. They seem very organised and professional
+                      </p>
+                      <span>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel_btn-box">
+            <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+              <span>
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+              </span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+              <span>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <style>
+    .client_section {
+      padding: 60px 0;
+      position: relative;
+      background-color: #f7f6f6;
+      color: #0d0c0c;
+    }
+    
+    .client_section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("/saru_logo.ico");
+      background-size: auto;
+      background-repeat: repeat;
+      opacity: .10;
+      filter: brightness(100%);
+    }
+    
+    .client_container {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .detail-box {
+      text-align: center;
+    }
+    
+    .detail-box h5 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .detail-box p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    
+    .carousel_btn-box {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      color: #fff;
+      font-size: 24px;
+      width: auto;
+      height: auto;
+      background-color: transparent;
+    }
+    
+    .carousel-control-prev {
+      left: -50px;
+    }
+    
+    .carousel-control-next {
+      right: -50px;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      padding: 10px;
+    }
+    
+    .carousel-control-prev-icon {
+      margin-right: 5px;
+    }
+    
+    .carousel-control-next-icon {
+      margin-left: 5px;
+    }
+    
+    @media (max-width: 768px) {
+      .client_container {
+        flex-direction: column;
+      }
+    
+      .carousel-control-prev,
+      .carousel-control-next {
+        left: 0;
+        right: 0;
+        top: -40px;
+      }
+    }
+  </style>
+
+  <!-- end client section -->
 
 @include('footer')
