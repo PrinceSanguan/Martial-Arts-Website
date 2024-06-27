@@ -33,7 +33,7 @@
 
   <!-- Open Graph meta tags -->
  <meta property="og:title" content="BJJ Classes in Swansea" />
- <meta property="og:image" content="{{ url(asset('images/logo-image.png')) }}" />
+ <meta property="og:image" content="{{ url(asset('images/logo-image-black.png')) }}" />
  <meta property="og:url" content="http://martial-arts.free.nf/" />
  <meta property="og:site_name" content="BJJ Classes in Swansea" />
  <meta property="og:description" content="BJJ Classes in Swansea" />
