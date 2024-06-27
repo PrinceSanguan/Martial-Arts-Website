@@ -1,8 +1,9 @@
   <!-- info section -->
-  <section class="info_section ">
+
+  <section class="info_section layout_padding">
     <div class="container">
       <div class="info_top">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md-3 ">
             <a class="navbar-brand" href="index.html">
               SJA Martial Arts
@@ -10,7 +11,7 @@
           </div>
           <div class="col-md-5 ">
             <div class="info_contact">
-              <a href="">
+              <a href="https://www.google.com/maps?ll=51.619543,-3.950811&z=15&t=m&hl=fil&gl=PH&mapclient=embed&q=1+The+Kingsway+Swansea+SA1+5JQ+United+Kingdom">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span style="font-size: .8em">
                   Gym: SJA Martial Arts, 1 The Kingsway
@@ -19,23 +20,20 @@
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  +01 1234567890
+                  0333 242 3919
                 </span>
               </a>
             </div>
           </div>
           <div class="col-md-4 ">
             <div class="social_box">
-              <a href="">
+              <a href="https://www.facebook.com/SJAmartialarts" target="blank">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://x.com/sarujujitsu" target="blank">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="">
+              <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsjamartialarts%2F&is_from_rle" target="blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </div>
@@ -50,31 +48,32 @@
                 Company
               </h5>
               <p>
-                MMA Programs designed to take you from a Beginner to Advanced
+                MMA Programs designed to take you from a Beginner to Advanced.
               </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="info_form">
+            <div class="info_detail">
               <h5>
-                NEWSLETTER
+                OPEN HOURS
               </h5>
-              <form action="">
-                <input type="text" placeholder="Enter Your Email" />
-                <button type="submit">
-                  Subscribe
-                </button>
-              </form>
+              <p>
+                Mon – Thur 12pm – 9:00pm
+              </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="info_detail">
               <h5>
-                Services
+                Find Us Here
               </h5>
-              <p>
-                We though Self defense and many more!
-              </p>
+              <div class="map_container">
+                <div>
+                  <figure>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.2001209453583!2d-3.9508114!3d51.61954319999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486ef53376f1226d%3A0xb8dff3f743d5fcc2!2s1%20The%20Kingsway%2C%20Swansea%20SA1%205JQ%2C%20United%20Kingdom!5e0!3m2!1sfil!2sph!4v1719492849198!5m2!1sfil!2sph" width="100%" height="250" loading="lazy"></iframe>
+                  </figure>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-2 col-md-6">
@@ -115,6 +114,79 @@
       </div>
     </div>
   </section>
+  
+  <style>
+    .info_section {
+      padding: 60px 0;
+      background-color: #43574e;
+      color: #ffffff;
+    }
+  
+    .info_top {
+      margin-bottom: 40px;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  
+    .info_contact a {
+      display: block;
+      color: #ffffff;
+      font-size: 1em;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+  
+    .social_box a {
+      display: inline-block;
+      color: #ffffff;
+      font-size: 1.2em;
+      margin-right: 10px;
+    }
+  
+    .info_detail {
+      margin-bottom: 30px;
+    }
+  
+    .info_detail h5 {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .info_detail p {
+      font-size: 1em;
+      line-height: 1.5;
+    }
+  
+    .map_container {
+      margin-top: 20px;
+    }
+  
+    .info_menu {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .info_menu li {
+      margin-bottom: 10px;
+    }
+  
+    .info_menu a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1em;
+    }
+  
+    .info_menu a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  
+  <script src="https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJbSLxdjP1bkgRwvzVQ_fz37g"></script>
 
   <!-- end info_section -->
 

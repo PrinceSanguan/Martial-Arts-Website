@@ -32,6 +32,13 @@
   <link href="{{asset('css/responsive.css')}}" rel="stylesheet" />
 </head>
 
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="BJJ Classes in Swansea" />
+  <meta property="og:image" content="{{ url(asset('images/logo-image.png')) }}" />
+  <meta property="og:url" content="http://martial-arts.free.nf/" />
+  <meta property="og:site_name" content="BJJ Classes in Swansea" />
+  <meta property="og:description" content="BJJ Classes in Swansea" />
+
 @include('navbar')
 
 
@@ -108,11 +115,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/saru_logo.ico");
-    background-size: auto;
-    background-repeat: repeat;
-    opacity: 0.1;
-    filter: brightness(100%);
+    background-image: url("/images/gallery-image-2.jpg");
+    background-size: cover; /* Single image covering the background */
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .50;
+    filter: brightness(70%);
   }
 
   .bjj-box {

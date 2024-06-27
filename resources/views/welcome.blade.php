@@ -167,8 +167,8 @@
       .video_section {
         padding: 60px 0;
         position: relative; /* Ensure positioning context for pseudo-element */
-        background-color: #000; /* Black background color */
-        color: #fff; /* Light text color for contrast */
+        background-color: #ffffff; /* White background color */
+        color: #0b0a0a; /* Light text color for contrast */
       }
     
       .video_section::before {
@@ -178,11 +178,12 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url("/saru_logo.ico");
-        background-size: auto; /* Adjust as needed */
-        background-repeat: repeat;
-        opacity: .1; /* Adjust opacity to make the background image darker */
-        filter: brightness(100%); /* Adjust brightness to darken the background image */
+        background-image: url("/images/logo-image.png");
+        background-size: cover; /* Single image covering the background */
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: .50;
+        filter: brightness(50%);
       }
     
       .video-box {
@@ -208,7 +209,7 @@
       .video-item h3,
       .video-item p {
         text-align: center;
-        color: #ffffff;
+        color: #000000;
         font-family: 'Orbitron', sans-serif;
       }
     
@@ -259,7 +260,7 @@
         text-align: center;
         margin-top: 10px;
         cursor: pointer;
-        color: #00ffcc;
+        color: #040505;
       }
     
       .read-more-btn:hover {
@@ -330,180 +331,181 @@
 
     <!-- client section -->
 
-    <section class="client_section layout_padding">
-      <div class="container">
-        <div class="heading_container heading_center">
-          <h2>Testimonials</h2>
-          <hr>
-        </div>
-        <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-lg-7 col-md-9 mx-auto">
-                  <div class="client_container">
-                    <div class="detail-box">
-                      <h5>James Evans<i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
-                      <p>
-                        I trained here as a visitor and was really impressed with both the atmosphere and the level of coaching. Classes are well structured for all levels and the principles are well explained with each technique, which will give students a deeper understanding over time. Everyone I’ve met from the coaches to the students have been friendly and welcoming and I look forward to coming back again in the future. Highly recommend SJA to anyone and everyone in the area.
-                      </p>
-                      <span>
-                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-7 col-md-9 mx-auto">
-                  <div class="client_container">
-                    <div class="detail-box">
-                      <h5>Damien Hann <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
-                      <p>
-                        This place is a great place to learn Martial Arts. Been going there almost 5 years now and a lot has changed, great staff and spacious gym. Overall it's a great place and I recommend you try it!
-                      </p>
-                      <span>
-                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-7 col-md-9 mx-auto">
-                  <div class="client_container">
-                    <div class="detail-box">
-                      <h5>Emma Owen<i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
-                      <p>
-                        My son loved it! He can't wait to go again. Really informative and helpful staff. They seem very organised and professional
-                      </p>
-                      <span>
-                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                      </span>
-                    </div>
-                  </div>
+<!-- client section -->
+<section class="client_section layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>Testimonials</h2>
+      <hr>
+    </div>
+    <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-7 col-md-9 mx-auto">
+              <div class="client_container">
+                <div class="detail-box">
+                  <h5 style="color: #fffdfd">James Evans<i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
+                  <p style="color: #fffdfd">
+                    I trained here as a visitor and was really impressed with both the atmosphere and the level of coaching. Classes are well structured for all levels and the principles are well explained with each technique, which will give students a deeper understanding over time. Everyone I’ve met from the coaches to the students have been friendly and welcoming and I look forward to coming back again in the future. Highly recommend SJA to anyone and everyone in the area.
+                  </p>
+                  <span>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel_btn-box">
-            <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
-              <span>
-                <i class="fa fa-arrow-left" aria-hidden="true"></i>
-              </span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
-              <span>
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              </span>
-              <span class="sr-only">Next</span>
-            </a>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-7 col-md-9 mx-auto">
+              <div class="client_container">
+                <div class="detail-box">
+                  <h5 style="color: #fffdfd">Damien Hann <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
+                  <p style="color: #fffdfd">
+                    This place is a great place to learn Martial Arts. Been going there almost 5 years now and a lot has changed, great staff and spacious gym. Overall it's a great place and I recommend you try it!
+                  </p>
+                  <span>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-7 col-md-9 mx-auto">
+              <div class="client_container">
+                <div class="detail-box">
+                  <h5 style="color: #fffdfd">Emma Owen<i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></h5>
+                  <p style="color: #fffdfd">
+                    My son loved it! He can't wait to go again. Really informative and helpful staff. They seem very organised and professional
+                  </p>
+                  <span>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="carousel_btn-box">
+        <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+          <span>
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+          <span>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
+<style>
+  .client_section {
+    padding: 60px 0;
+    position: relative;
+    background-color: #020202;
+    color: #fffdfd;
+  }
 
-    <style>
-    .client_section {
-      padding: 60px 0;
-      position: relative;
-      background-color: #f7f6f6;
-      color: #0d0c0c;
-    }
-    
-    .client_section::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url("/saru_logo.ico");
-      background-size: auto;
-      background-repeat: repeat;
-      opacity: .10;
-      filter: brightness(100%);
-    }
-    
+  .client_section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/logo-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .50;
+    filter: brightness(50%);
+  }
+
+  .client_container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .detail-box {
+    text-align: center;
+  }
+
+  .detail-box h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .detail-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .carousel_btn-box {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: #fff;
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .carousel-control-prev {
+    left: -50px;
+  }
+
+  .carousel-control-next {
+    right: -50px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-right: 5px;
+  }
+
+  .carousel-control-next-icon {
+    margin-left: 5px;
+  }
+
+  @media (max-width: 768px) {
     .client_container {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
     }
-    
-    .detail-box {
-      text-align: center;
-    }
-    
-    .detail-box h5 {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    
-    .detail-box p {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-    
-    .carousel_btn-box {
-      text-align: center;
-      margin-top: 20px;
-    }
-    
+
     .carousel-control-prev,
     .carousel-control-next {
-      color: #fff;
-      font-size: 24px;
-      width: auto;
-      height: auto;
-      background-color: transparent;
+      left: 0;
+      right: 0;
+      top: -40px;
     }
-    
-    .carousel-control-prev {
-      left: -50px;
-    }
-    
-    .carousel-control-next {
-      right: -50px;
-    }
-    
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      background-color: rgba(255, 255, 255, 0.5);
-      border-radius: 50%;
-      padding: 10px;
-    }
-    
-    .carousel-control-prev-icon {
-      margin-right: 5px;
-    }
-    
-    .carousel-control-next-icon {
-      margin-left: 5px;
-    }
-    
-    @media (max-width: 768px) {
-      .client_container {
-        flex-direction: column;
-      }
-    
-      .carousel-control-prev,
-      .carousel-control-next {
-        left: 0;
-        right: 0;
-        top: -40px;
-      }
-    }
-  </style>
+  }
+</style>
 
   <!-- end client section -->
 

@@ -1,7 +1,7 @@
 <body>
   <div class="hero_area">
     <div class="hero_bg_box">
-      <img src="{{asset('images/hero.jpg')}}" alt="">
+      <img src="{{asset('images/gallery-image-10.jpg')}}" alt="">
     </div>
     <!-- header section strats -->
     <header class="header_section">
@@ -18,7 +18,7 @@
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                Call : +01 123455678990
+                Call : 0333 242 3919
               </span>
             </a>
             <a href="">
@@ -29,13 +29,13 @@
             </a>
           </div>
           <div class="social_box">
-            <a href="">
+            <a href="https://www.facebook.com/SJAmartialarts" target="blank">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="https://x.com/sarujujitsu" target="blank">
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsjamartialarts%2F&is_from_rle" target="blank">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </div>
