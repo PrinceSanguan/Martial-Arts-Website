@@ -13,16 +13,56 @@ class MainController extends Controller
 
     public function mma()
     {
-        return view ('mma-classes-in-swansea');
+        return view ('discipline.mixed-martial-arts');
     }
 
     public function bjj()
     {
-        return view ('bjj-classes-in-swansea');
+        return view ('discipline.brazilian-jiu-jitsu');
     }
 
-    public function blogs()
+    public function sg()
     {
-        return view ('blogs');
+        return view ('discipline.submission-grappling');
+    }
+
+    public function cjj()
+    {
+        return view ('discipline.combat-jiu-jitsu');
+    }
+
+    public function mmaForKids()
+    {
+        return view ('mma-programs.mma-programs-for-kids');
+    }
+
+    public function mmaForAdults()
+    {
+        return view ('mma-programs.mma-programs-for-adults');
+    }
+    
+    public function bjjForKids()
+    {
+        return view ('bjj-programs.bjj-programs-for-kids');
+    }
+
+    public function bjjForAdults()
+    {
+        return view ('bjj-programs.bjj-programs-for-adults');
+    }
+
+    public function subGrapplingForKids()
+    {
+        return view ('sub-grappling-programs.sub-grappling-programs-for-kids');
+    }
+
+    public function subGrapplingForAdults()
+    {
+        return view ('sub-grappling-programs.sub-grappling-programs-for-adults');
+    }
+
+    public function selfDefenseForKids()
+    {
+        return view ('self-defense.self-defense-programs-for-kids');
     }
 }

@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="{{asset('saru_logo.ico')}}" type="image/x-icon">
-  <title>BJJ Classes in Swansea</title>
+  <title>Top Martial Arts Academy in Swansea: MMA, BJJ, Submission Grappling, and Self-Defense Classes</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}" />
@@ -32,9 +32,9 @@
   <link href="{{asset('css/responsive.css')}}" rel="stylesheet" />
 
   <!-- Open Graph meta tags -->
- <meta property="og:title" content="BJJ Classes in Swansea" />
+ <meta property="og:title" content="Top Martial Arts Academy in Swansea: MMA, BJJ, Submission Grappling, and Self-Defense Classes" />
  <meta property="og:image" content="{{ url(asset('images/logo-image-black.png')) }}" />
  <meta property="og:url" content="http://martial-arts.free.nf/" />
- <meta property="og:site_name" content="BJJ Classes in Swansea" />
- <meta property="og:description" content="BJJ Classes in Swansea" />
+ <meta property="og:site_name" content="Top Martial Arts Academy in Swansea: MMA, BJJ, Submission Grappling, and Self-Defense Classes" />
+ <meta property="og:description" content="Top Martial Arts Academy in Swansea: MMA, BJJ, Submission Grappling, and Self-Defense Classes" />
 </head>

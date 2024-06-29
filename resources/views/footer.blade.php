@@ -98,8 +98,8 @@
                   </a>
                 </li>
                 <li>
-                  <a href="{{route('blogs')}}">
-                    Blogs
+                  <a href="">
+                    Programs
                   </a>
                 </li>
                 <li class="mb-0">
