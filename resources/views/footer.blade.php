@@ -83,23 +83,23 @@
               </h5>
               <ul class="info_menu">
                 <li>
-                  <a href="{{route('welcome')}}">
-                    Home
+                  <a href="{{route('cjj')}}">
+                    Combat Jiu Jitsu
                   </a>
                 </li>
                 <li>
                   <a href="{{route('mma')}}">
-                    MMA Classes
+                    Mixed Martial Arts
                   </a>
                 </li>
                 <li>
                   <a href="{{route('bjj')}}">
-                    BJJ Classes
+                    Brazilian Jiu Jitsu
                   </a>
                 </li>
                 <li>
-                  <a href="">
-                    Programs
+                  <a href="{{route('sg')}}">
+                    Submission Grappling
                   </a>
                 </li>
                 <li class="mb-0">
